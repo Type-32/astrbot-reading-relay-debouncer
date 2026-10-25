@@ -1,0 +1,13 @@
+{
+  "enabled":           {"type": "bool",   "default": true,  "description": "Enable"},
+  "usage_scope":       {"type": "string", "default": "private", "options": ["private", "group", "both"]},
+  "pickup_delay":      {"type": "float",  "default": 1.0,   "description": "Extra seconds on the first message of a burst (noticing / picking up phone)"},
+  "base_delay":        {"type": "float",  "default": 0.8,   "description": "Per-message overhead (glance + comprehend)"},
+  "reading_wps":       {"type": "float",  "default": 3.5,   "description": "Reading speed in words per second (~210 wpm)"},
+  "per_image_delay":   {"type": "float",  "default": 2.0,   "description": "Seconds added per image"},
+  "min_delay":         {"type": "float",  "default": 0.6},
+  "max_delay_per_msg": {"type": "float",  "default": 6.0},
+  "max_total_wait":    {"type": "float",  "default": 20.0,  "description": "Hard cap from first message of a burst"},
+  "join_separator":    {"type": "string", "default": "\n"},
+  "command_prefixes":  {"type": "list",   "default": ["/"]}
+}

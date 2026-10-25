@@ -1,6 +1,6 @@
-name: astrbot_plugin_skip_message_filter
-display_name: SKIP Message Filter
-desc: For skipping messages
+name: astrbot_plugin_reading_relay_debouncer
+display_name: Reading Relay Debouncer
+desc: Holds messages for human-like reading time, then replays the merged burst (runs before other debouncers)
 version: v1.0.0
 author: Type-32
-repo: https://github.com/Type-32/astrbot-skip-message-filter
+repo: https://github.com/Type-32/astrbot-reading-relay-debouncer
